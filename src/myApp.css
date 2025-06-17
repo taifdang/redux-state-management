@@ -1,0 +1,59 @@
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --bg_gray:#EAEAE8;
+}
+.product_img-bg{
+    background-color:var(--bg_gray);
+    border-radius: 10px;
+    & img{
+        mix-blend-mode: darken;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+ ._product_note{
+  top:0;
+  right: 0;
+  margin-right: 7px;
+ }
+ .cart-size{
+  font-size: 1.8rem;
+ }
+ .nav-font{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+ }
+ .overlay{
+ 
+  border-radius: 5px;
+  text-align: center;
+  font-size: .8rem;
+  transition: .5s ease;
+  background: rgb(163, 161, 161);
+  background: rgba(163, 161, 161, 0.8); /* Black see-through */
+  color: #f1f1f1; 
+  width: 80%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+ }
+ .product_img-bg:hover .overlay{
+  opacity: 1;
+ }
+ .card-size{
+  width: 30px;
+  height: auto;
+  background-color: #fff;
+  color: #222;
+  font-weight: 500;
+  font-size: 1rem;
+ }
+ .card-size_text-fs{
+  color: #222;
+  font-weight: 500;
+  font-size: .9rem;
+ }
