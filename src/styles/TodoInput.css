@@ -1,0 +1,36 @@
+.todo-input {
+  display: flex;
+  border-radius: 2px;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1 1 0%;
+  padding: 10px 12px;  
+  font-size: 16px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: black;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.add-btn button{
+    outline: none;
+    border: none;
+    
+}
+.add-btn button:active{
+    outline: none;
+}
