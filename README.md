@@ -22,7 +22,7 @@ A simple todo application built with React, Redux, TypeScript, and Vite.
 ### 🔄 Clone
 
 ```bash
-git clone https://github.com/taifdangredux-state-management.git
+git clone https://github.com/taifdang/redux-state-management.git
 ```
 
 ### 📦 Installation
